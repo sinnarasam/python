@@ -4,6 +4,9 @@ https://docs.python.org/3.9/library/
 
 https://pandas.pydata.org/docs/reference/index.html
 
+https://matplotlib.org/
+
+
 # 실습 예제: 중복된 숫자 제거하기
 
 	# 숫자 리스트
@@ -75,5 +78,12 @@ https://pandas.pydata.org/docs/reference/index.html
 	data.iloc[:,0] # 첫번째 열만
 	data.iloc[:,1] # 두번째 열만
 	data.iloc[:,-1] # 마지막 열만
+
+ 
+# matplotlib.markers
+https://matplotlib.org/stable/api/markers_api.html#module-matplotlib.markers
+
+![image](https://github.com/user-attachments/assets/6a400a6f-32ae-40d1-8490-86c75cd5c35b)
+![image](https://github.com/user-attachments/assets/8df3025e-49b8-4876-b996-b76a6f155f01)
 
 
