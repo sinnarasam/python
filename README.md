@@ -21,7 +21,7 @@ https://matplotlib.org/
 	
 	print(name , "는 " ,age , "살 입니다.")
 
-1. 함수의 반환 값으로 여러 값 반환하기
+# 1.함수의 반환 값으로 여러 값 반환하기
 
 	def get_user_info():
 	    name = "Alice"
@@ -31,7 +31,7 @@ https://matplotlib.org/
 	user_info = get_user_info()
 	print(user_info)  # ('Alice', 25)
 
-2. 딕셔너리의 키로 사용
+# 2. 딕셔너리의 키로 사용
 
 	location = {
 	    (37.7749, -122.4194): "San Francisco",
@@ -40,21 +40,21 @@ https://matplotlib.org/
 	
 	print(location[(37.7749, -122.4194)])  # San Francisco
 
-3. 불변 데이터를 표현
+# 3. 불변 데이터를 표현
 	# 좌표 값
 	coordinates = (10, 20)
 	
 	# RGB 색상
 	color = (255, 0, 0)  # 빨간색
 
-5. 고정된 구조의 데이터 표현
+# 5. 고정된 구조의 데이터 표현
 	# 2차원 좌표
 	point = (3, 5)
 	
 	# 날짜와 시간을 튜플로 표현
 	date_time = (2023, 9, 10, 15, 30)  # (년, 월, 일, 시간, 분)
 
-5. 언패킹 (Unpacking) 활용
+# 5. 언패킹 (Unpacking) 활용
 	a, b = (1, 2)
 	print(a)  # 1
 	print(b)  # 2
