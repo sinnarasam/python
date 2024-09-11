@@ -7,6 +7,21 @@ https://pandas.pydata.org/docs/reference/index.html
 https://matplotlib.org/
 
 
+# 생각해보기(퀴즈)
+
+	print("제 이름은 철수이고, 나이는 17살입니다.")
+	
+	
+	name = "영희"
+	age = 13
+	
+	print("이름:", name, "나이:", age)
+	
+	print(name + "는 " + str(age) + "살 입니다.")
+	
+	print(name , "는 " ,age , "살 입니다.")
+
+
 # 실습 예제: 중복된 숫자 제거하기
 
 	# 숫자 리스트
